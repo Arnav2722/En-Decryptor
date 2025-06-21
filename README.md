@@ -34,14 +34,14 @@ To explore the implementations in each branch:
 
    ```bash
    git clone <repo-url>
-   cd encrypty
+   cd En-Decryptor
    git checkout <branch>
    # Now make a virtual env and activate
    python -m venv /myvenv
    source myvenv/bin/activate
    python makeDirs.py
    make
-   ./encrypty
+   ./En-Decryptor
    # type directory name which is created from makeDirs.py
    test
    ENCRYPT # after giving directory name, give ENCRYPT or DECRYPT to tell what to do
